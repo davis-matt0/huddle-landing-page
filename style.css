@@ -39,6 +39,23 @@ h1 {
   margin-bottom: 5em;
 }
 
+.btn:hover,
+.btn:focus {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.btn:hover,
+.social-link:hover,
+.social-link:focus {
+  transition: 150ms;
+}
+
+.btn:active {
+  color: hsl(257, 40%, 49%);
+  background-color: white;
+}
+
 .container {
   text-align: center;
 }
@@ -72,6 +89,11 @@ header {
 
 .social-icon {
   color: white;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: hsl(300, 69%, 71%);
 }
 
 .attribution {
