@@ -10,7 +10,68 @@ html {
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-image: url("./images/bg-mobile.svg");
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+  color: white;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+.body-text {
+  line-height: 1.5;
+  font-size: 1.125rem;
+  margin-bottom: 2em;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: hsl(257, 40%, 49%);
+  background-color: white;
+  padding: 1em 6em;
+  border-radius: 100px;
+  box-shadow: 2px 2px 5px rgb(51, 51, 51);
+  margin-bottom: 5em;
+}
+
+.container {
+  text-align: center;
+}
+
+.container,
+header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 45%;
+  margin-top: 2em;
+}
+
+.screenshot {
+  width: 100%;
+  margin-top: 3em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+.social-link {
+  color: white;
+}
+
+.social-icon {
+  color: white;
 }
 
 .attribution {
@@ -18,5 +79,6 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: white;
+  text-shadow: 2px 2px 5px black;
 }
